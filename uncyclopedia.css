@@ -1,0 +1,67 @@
+@keyframes madeinchina {
+    0% { background-color: #f00; color: #ff0; }
+    17% { background-color: #ff0; color: #000; }
+    33% { background-color: #000; color: #f00; }
+    50% { background-color: #f00; color: #000; }
+    67% { background-color: #ff0; color: #f00; }
+    83% { background-color: #000; color: #ff0; }
+    100% { background-color: #f00; color: #ff0; }
+}
+uncyclo-china {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: monospace;
+    font-size: 36px;
+    display: table;
+    width: 300px;
+    height: 80px;
+    color: black;
+    text-align: center;
+    background-color: red;
+    animation-name: madeinchina;
+    animation-duration: 0.13s;
+    animation-iteration-count: infinite;
+}
+uncyclo-china > uncyclo-china-text {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+uncyclo-mikuru {
+    display: inline;
+    font-size: 0.85em;
+    border: thin solid rgb(175,50,0);
+    color: rgb(175,50,0);
+    background-color: rgb(255,225,225);
+    padding: 0.1em;
+}
+
+uncyclo-censored {
+    display: inline;
+    font-size: 0.85em;
+    border: thin solid #cc0;
+    background-color: yellow;
+    color: #882;
+    padding: 0.1em;
+}
+
+uncyclo-talk {
+    margin: 8px 0;
+    font-size: 0.85rem;
+    display: block;
+}
+uncyclo-talk > uncyclo-talk-content {
+    display: inline-block;
+    margin: 0;
+    padding: 0 8px 0 0;
+    border: thin solid gray;
+    background-color: #eee;
+}
+uncyclo-talk-content > img {
+    margin: 12px 8px;
+    vertical-align: middle;
+}
+uncyclo-talk-content > span {
+    position: relative;
+    top: 4px;
+}
